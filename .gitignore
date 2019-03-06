@@ -83,3 +83,4 @@ lint/tmp/
 .idea/codeStyles/
 .idea/inspectionProfiles/
 app/libs/
+.idea/misc.xml
