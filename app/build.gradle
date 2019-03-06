@@ -10,6 +10,13 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+
+    //使用java8编译
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -25,4 +32,23 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    //权限库（链式调用）
+    implementation 'com.yanzhenjie.permission:support:2.0.1'
+
+    //json库
+    implementation 'com.alibaba:fastjson:1.2.56'
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+    //lombok
+    implementation "org.projectlombok:lombok:1.18.4"
+    annotationProcessor "org.projectlombok:lombok:1.18.4"
+
+    //butterknife
+    implementation 'com.jakewharton:butterknife:9.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:9.0.0'
+
+    //retrofit & rxjava
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation "io.reactivex.rxjava2:rxjava:2.2.7"
 }

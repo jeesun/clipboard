@@ -1,7 +1,10 @@
-package com.simon.clipboard.util;
+package com.simon.clipboard.common.util;
 
 import android.util.Log;
 
+/**
+ * @author simon
+ */
 public class LogUtil {
     public static final int VERBOSE = 1;
     public static final int DEBUG = 2;

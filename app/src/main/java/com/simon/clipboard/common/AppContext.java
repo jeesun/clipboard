@@ -1,4 +1,4 @@
-package com.simon.clipboard;
+package com.simon.clipboard.common;
 
 import android.app.Application;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.content.Context;
  */
 
 public class AppContext extends Application {
-    private static final String TAG = AppContext.class.getName();
+
     private static Context instance;
 
     @Override

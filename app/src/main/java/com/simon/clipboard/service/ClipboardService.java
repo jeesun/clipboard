@@ -5,17 +5,14 @@ import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Intent;
 import android.os.IBinder;
-import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.simon.clipboard.AppContext;
-import com.simon.clipboard.MainActivity;
+import com.simon.clipboard.common.AppContext;
 import com.simon.clipboard.util.WindowUtils;
 
 public class ClipboardService extends Service {
     private static final String TAG = ClipboardService.class.getName();
 
-    @Nullable
     @Override
     public IBinder onBind(Intent intent) {
         Log.i(TAG, "onBind");

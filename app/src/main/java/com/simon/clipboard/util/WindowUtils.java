@@ -17,6 +17,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.simon.clipboard.R;
+import com.simon.clipboard.common.util.LogUtil;
 
 public class WindowUtils {
     private static final String LOG_TAG = "WindowUtils";
