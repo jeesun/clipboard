@@ -35,6 +35,7 @@ dependencies {
 
     //权限库（链式调用）
     implementation 'com.yanzhenjie.permission:support:2.0.1'
+    implementation 'com.yanzhenjie.alertdialog:alertdialog:1.0.1'
 
     //json库
     implementation 'com.alibaba:fastjson:1.2.56'
@@ -50,5 +51,9 @@ dependencies {
 
     //retrofit & rxjava
     implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.2.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.2.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
     implementation "io.reactivex.rxjava2:rxjava:2.2.7"
+    implementation 'io.reactivex:rxandroid:1.2.1'
 }

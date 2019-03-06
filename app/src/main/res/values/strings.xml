@@ -4,4 +4,25 @@
     <string name="default_content">默认内容</string>
     <string name="default_btn_cancel">取消</string>
     <string name="default_btn_ok">确认</string>
+
+    <string name="message_permission_rationale">需要以下权限：%1$s</string>
+    <string name="title_dialog">弹框标题</string>
+    <string name="resume">重新</string>
+    <string name="cancel">取消</string>
+    <string name="message_permission_always_failed">总是不给权限：%1$s</string>
+    <string name="setting">设置</string>
+    <string name="no">不要</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="login">登录</string>
+    <string name="logout">退出</string>
+    <string name="loading">加载中</string>
+    <string name="web_login_check">网页登录确认</string>
+    <string name="check_login">确认登录</string>
+    <string name="cancel_login">取消登录</string>
+    <string name="login_succeed">登录成功</string>
+    <string name="hint_login_username">用户名、手机号或邮箱</string>
+    <string name="hint_login_password">密码</string>
+
+    <string name="search_word">划词搜索</string>
 </resources>

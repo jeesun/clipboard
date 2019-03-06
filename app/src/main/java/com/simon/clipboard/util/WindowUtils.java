@@ -51,7 +51,7 @@ public class WindowUtils {
         // WindowManager.LayoutParams.TYPE_SYSTEM_ALERT
         // 设置flag
         int flags = WindowManager.LayoutParams.FLAG_ALT_FOCUSABLE_IM;
-        // | WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE;
+        // | WindowManager.LayoutPapositiveBtnrams.FLAG_NOT_FOCUSABLE;
         // 如果设置了WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE，弹出的View收不到Back键的事件
         params.flags = flags;
         // 不设置这个弹出框的透明遮罩显示为黑色
@@ -82,12 +82,13 @@ public class WindowUtils {
         LogUtil.i(LOG_TAG, "setUp view");
         View view = LayoutInflater.from(context).inflate(R.layout.popup_window,
                 null);
-        Button positiveBtn = (Button) view.findViewById(R.id.positiveBtn);
+
 
         //设置内容
         TextView tvContent = view.findViewById(R.id.content);
         tvContent.setText(content);
 
+        /*Button positiveBtn = (Button) view.findViewById(R.id.positiveBtn);
         positiveBtn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -96,15 +97,15 @@ public class WindowUtils {
                 // 隐藏弹窗
                 WindowUtils.hidePopupWindow();
             }
-        });
-        Button negativeBtn = (Button) view.findViewById(R.id.negativeBtn);
+        });*/
+        /*Button negativeBtn = (Button) view.findViewById(R.id.negativeBtn);
         negativeBtn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 LogUtil.i(LOG_TAG, "cancel on click");
                 WindowUtils.hidePopupWindow();
             }
-        });
+        });*/
         // 点击窗口外部区域可消除
         // 这点的实现主要将悬浮窗设置为全屏大小，外层有个透明背景，中间一部分视为内容区域
         // 所以点击内容区域外部视为点击悬浮窗外部

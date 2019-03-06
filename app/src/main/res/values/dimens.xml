@@ -24,8 +24,8 @@ http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
     -->
     <dimen name="widget_margin">8dp</dimen><!--110+34-->
 
-    <dimen name="dialog_window_width">480dp</dimen>
-    <dimen name="dialog_window_height">320dp</dimen>
+    <dimen name="dialog_window_width">360dp</dimen>
+    <dimen name="dialog_window_height">420dp</dimen>
     <dimen name="dialog_title_height">60dp</dimen>
     <dimen name="dialog_title_text_size">22sp</dimen>
     <dimen name="dialog_content_padding_side">20dp</dimen>

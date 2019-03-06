@@ -7,10 +7,11 @@
 
     <color name="white">#ffffff</color>
 
-    <color name="dialog_title_text_color">#ffffff</color>
-    <color name="dialog_content_text_color">#ffffff</color>
+    <color name="dialog_title_text_color">#000000</color>
+    <color name="dialog_content_text_color">#000000</color>
     <color name="dialog_negative_btn_text_color">#000000</color>
     <color name="dialog_positive_btn_text_color">#000000</color>
 
     <color name="bg_gray">#E6E6E6</color>
+    <color name="bg_white">#ffffff</color>
 </resources>
