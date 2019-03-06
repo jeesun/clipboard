@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="business_card_content_padding">6dp</dimen>
+    <dimen name="bc_padding">6dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="button_height">36dp</dimen>
+    <dimen name="button_radius">18dp</dimen>
+    <dimen name="button_margin">4dp</dimen>
+
+    <!-- size = (70 x n) - 30 -->
+    <dimen name="appwidget_margin">0dp</dimen>
+    <dimen name="appwidget_min_width">318dp</dimen><!--250+68-->
+    <dimen name="appwidget_min_height">110dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen><!--110+34-->
+
+    <dimen name="dialog_window_width">480dp</dimen>
+    <dimen name="dialog_window_height">320dp</dimen>
+    <dimen name="dialog_title_height">60dp</dimen>
+    <dimen name="dialog_title_text_size">22sp</dimen>
+    <dimen name="dialog_content_padding_side">20dp</dimen>
+    <dimen name="dialog_content_text_size">22sp</dimen>
+    <dimen name="dialog_content_padding_bottom">20dp</dimen>
+    <dimen name="dialog_button_padding">10dp</dimen>
+    <dimen name="dialog_button_text_size">22sp</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">clipboard</string>
+    <string name="default_title">测试</string>
+    <string name="default_content">默认内容</string>
+    <string name="default_btn_cancel">取消</string>
+    <string name="default_btn_ok">确认</string>
+</resources>
